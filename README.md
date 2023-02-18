@@ -1,3 +1,3 @@
-# AutomatedJobSearch
+# AutomatedRecipeComparison
 
-A program which uses web scraping, as well as several Website Api's to grab the desired listings of the user.
+A program which uses web scraping with the websites Allrecipes, The Food Network, Tasty, and Delish.
