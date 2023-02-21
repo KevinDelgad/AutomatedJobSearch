@@ -26,3 +26,7 @@ def list_fn_recipe(url):
     for ingredient in ingredients:
         if(ingredient.text != "Deselect All"):
             print(ingredient.text)
+    
+    instructions = browser.find_elements(By.CLASS_NAME, "o-Method__m-Step")
+    for step in instructions:
+        print(step.text)
