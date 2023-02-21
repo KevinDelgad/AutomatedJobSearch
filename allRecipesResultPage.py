@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup   
 
 # Grab all valid recipies from search pages
-def list_Valid_All_Recipes(url):
+def list_valid_all_recipes(url):
     page = requests.get(url)
 
     soup = BeautifulSoup(page.content, "html.parser")
@@ -20,7 +20,7 @@ def list_Valid_All_Recipes(url):
             print(link)
 
 #Grab amd Split Recipe into ingredients and instructions
-def list_All_Recipe(url):
+def list_all_recipe(url):
     page = requests.get(url)
 
     soup = BeautifulSoup(page.content, "html.parser")
